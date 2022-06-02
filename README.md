@@ -1,8 +1,8 @@
-# Basic Sample Hardhat Project
+# Demo task for CRYPTO ACADEMY
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, a sample script that deploys that contract, and an example of a task implementation, which simply lists the available accounts.
-
-Try running some of the following tasks:
+install dependencies: npm i
+deploy script: npx hardhat run scripts/deploy.js --network rinkeby  
+tests: npx hardhat test
 
 ```shell
 npx hardhat accounts
