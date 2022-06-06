@@ -1,9 +1,21 @@
 # Demo task for CRYPTO ACADEMY
 
-install dependencies: npm i
-deploy script: npx hardhat run scripts/deploy.js --network rinkeby  
-tests: npx hardhat test
+# # Install dependencies
+```shell
+npm i
+```
 
+# # Deploy contract script
+```shell
+npx hardhat run scripts/deploy.js --network rinkeby
+```
+
+# # Run tests
+```shell
+npx hardhat test
+```
+
+# # Standart hardhat shell:
 ```shell
 npx hardhat accounts
 npx hardhat compile
